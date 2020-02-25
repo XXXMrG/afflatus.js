@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/XXXMrG/afflatus.js.git"
   },
+  "bin": {
+    "atu": "./index.js"
+  },
   "author": "",
   "license": "ISC",
   "husky": {

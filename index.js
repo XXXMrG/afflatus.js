@@ -1,9 +1,20 @@
 #!/usr/bin/env node
-const figlet = require('figlet');
-const chalk = require('chalk');
+const commander = require('commander');
+const output = require('./lib/console');
+const project = require('./lib/project');
 
-console.clear();
+const program = new commander.Command();
 
-console.log(
-  chalk.yellow(figlet.textSync('Afflatus', { horizontalLayout: 'full' }))
-);
+program.version('0.1.0');
+
+program
+  .command('create <name>')
+  .description('create a new project at cwd path')
+  .action((name, cmdObj) => {
+    output.printStart();
+    project.createProject(name);
+  });
+
+program.parse(process.argv);
+
+// console.log(shell.cat('package.json').stdout);

@@ -6,7 +6,7 @@ a divine creative impulse or inspiration.
 
 ### webpack
 
-- [ ] main environment: webpack.
+- [x] main environment: webpack.
 
 dependencies:  webpack, webpack-cli, webpack-dev-server.
 

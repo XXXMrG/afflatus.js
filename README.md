@@ -18,16 +18,16 @@ subOptions:
 
 optional loaders:  
 
-- [ ] style support: style-loader, css-loader  
+- [x] style support: style-loader, css-loader  
 exe command: `npm install --save-dev ${dependencies}`
 need change files: webpack.config.js
-- [ ] babel support:  babel-loader
+- [x] babel support:  babel-loader
 exe command: `npm install --save-dev ${dependencies}`
 need change files: webpack.config.js .babelrc (new)
 
 optional plugins:
 
-- [ ] html & build support: html-webpack-plugin, clean-webpack-plugin.
+- [x] html & build support: html-webpack-plugin, clean-webpack-plugin.
 
 **at least According to the webpack options generate the webpack.config.js**
 

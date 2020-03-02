@@ -1,18 +1,14 @@
 {
-  "name": "afflatus.js",
+  "name": "new name",
   "version": "1.0.2",
   "description": "a divine creative impulse or inspiration.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": { "test": "echo \"Error: no test specified\" && exit 1" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XXXMrG/afflatus.js.git"
   },
-  "bin": {
-    "atu": "./index.js"
-  },
+  "bin": { "atu": "./index.js" },
   "author": "",
   "license": "ISC",
   "husky": {
@@ -20,9 +16,7 @@
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
-  "bugs": {
-    "url": "https://github.com/XXXMrG/afflatus.js/issues"
-  },
+  "bugs": { "url": "https://github.com/XXXMrG/afflatus.js/issues" },
   "homepage": "https://github.com/XXXMrG/afflatus.js#readme",
   "dependencies": {
     "chalk": "^3.0.0",
@@ -42,8 +36,7 @@
     "husky": "^4.2.3"
   },
   "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+    "commitizen": { "path": "./node_modules/cz-conventional-changelog" }
+  },
+  "add": "new prop"
 }

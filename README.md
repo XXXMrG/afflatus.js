@@ -4,6 +4,10 @@ a divine creative impulse or inspiration.
 
 ## TODO
 
+### template file control 
+
+- [ ] use ejs or other template language
+
 ### webpack
 
 - [x] main environment: webpack.
